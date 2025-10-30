@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 100;
+    int b = 20;
+    
+    if(a > b)
+    {
+        cout << "\nA is greater than B";
+    }
+    else if(a < b)
+    {
+        cout << "\nA is smaller than B";
+    }
+    else
+    {
+        cout << "\nA and B are equal";
+    }
+    
+    return 0;
+}
